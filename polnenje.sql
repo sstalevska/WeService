@@ -159,7 +159,34 @@ insert into business_service(business_id, service_id)
  	
 insert into business_service(business_id, service_id)
  		values (17, 19);
+
+insert into reviewer (reviewer_name, reviewer_email, reviewer_password)
+		values ('Sara S', 'sara.stalevska@finki.ukim.mk', 'sarasara'),
+				('Spase S', 'spase.spaseski@yahoo.com', 'spasespase'),
+				('Martin M', 'martin.martinoski@hotmail.com', 'martinmartin'),
+				('Martina M', 'martinam@gmail.com', 'martinamartina'),
+				('Goce G', 'gocegoceski@gmail.com', 'gocegoce'),
+				('Katerina K', 'katerinak@students.finki.ukim.mk', 'katekate'),
+				('Klimentina L', 'klimentinal123@gmail.com', 'klimentinal');
  	
+insert into review (review_text, review_stars, business_id, reviewer_id)
+		values ('Good shopping center, but not the best in Skopje.', 4, 9, 2),
+				('Very crowded and Covid-19 safety measures not followed.', 2, 9, 6),
+				('Variety of quality books offered, very satisfied with the customer service, the staff is helpful and informed.', 5, 10, 1),
+				('Great nightclub, but unfriendly staff.', 3, 11, 1),
+				('Amazing parties, but not sure if going there again because of how rude the staff was and how expensive and mediocre the drinks were', 2, 11, 7),
+				('Excelent selection of DJs, best party place in Skopje', 5, 12, 3 ),
+				('Good parties but too crowded. They should let in less people at a time.', 3, 12, 5 ),
+				('Expensive drinks and terrible alcohol, rude staff. ', 1, 13, 4 ),
+				('One of the few nightclus in Skopje of this kind, but very rude staff and very expensive, from entry fee to drinks.', 2, 13, 1 ),
+				('Nice and helpful staff, got the job done, but a little too pricey. ', 3, 14, 5 ),
+ 				('Staff is neither helpful nor rude, service is somewhat satisfactory.', 3, 15, 5 ),
+ 				('Very nice personnel, excellent service at a good price', 5, 16, 6 ),
+ 				('Small selection of products at a very high price. At least the staff was nice. ', 2, 17, 6 ),
+ 				('Good brands and nice outfits, but very expensive', 3, 17, 2 ),
+ 				('Nice staff. Good food, but not the best. Affordable. ', 4, 18, 6 ),
+ 				('Slow service, but good food at a reasonable price. ', 4, 19, 7 ),
+ 				('Amazing atmosphere and tasty food, worth the cost.', 5, 20, 7 );
  	
  	
  	
